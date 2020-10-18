@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:  Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+    color: #f3f3f3;
+    font-size: 1.2em;
+    max-width: 100%;
+    height: 100vh;
+}
+input, select, textarea{
+    font-family:  Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+    color: #333;
+    font-size: 0.9em;
+    border: 2px solid #f3f3f3;
+    transition-property: border;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+
+input:focus, select:focus, textarea:focus{
+    border-color:#4579da;
+}
+
+.bg-image{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    filter: blur(3px);
+    z-index: -1;
+}
+
+#container{
+    max-width: 40%;
+    min-height: 100%;
+    padding: 1%;
+    margin: 0 auto;
+    background-color:rgba(5, 5, 44, 0.7);
+    border-radius: 1%;   
+}
+
+header{
+    position: relative;
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+    top: 2%;
+}
+#title{
+    margin: 0;
+}
+
+form{
+    margin: 1.5%;
+    padding: 1%;
+}
+form >*{
+    text-align: left;
+    padding: 1.8%;
+    display: block;
+    margin: 1%;
+    width: 100%;
+    border-radius: 4px;
+}
+
+fieldset{
+    border: none;
+    margin-top: 5%;
+}
+fieldset label{
+    display: block;
+    margin: 2%;
+}
+
+textarea{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 10em;
+    max-height: 15em;
+}
+
+button{
+    padding: 2%;
+    text-align: center;
+    background-color: #37af65;
+    border: #37af65;
+    margin-top: 5%;
+    font-family:  Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+    color: #f3f3f3;
+    font-size: 1em;
+}
+
+
+
+
+
+
